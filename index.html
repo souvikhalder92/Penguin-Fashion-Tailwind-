@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <script src="https://kit.fontawesome.com/893986718f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin:'#FFFBF0',
+                price:'#FABE4C',
+
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+   
+  <header class="bg-penguin pb-32 pt-5 ">
+    <div class="md:flex mb-1">
+      <div>
+        <img class="w-3/4 sm:w-2/4 md:w-1/2 pl-28" src="icons/Group 33072.png" alt="">
+      </div>
+   <div class="md:flex items-center flex-grow-0 sm:visible md:visible hidden">
+    <h2 class="text-[#3C3C3C]">Home</h2>
+    <h2 class="text-[#3C3C3C] ml-3">Product</h2>
+    <h2 class="text-[#3C3C3C] ml-3">About Us</h2>
+    <h2 class="text-[#3C3C3C] ml-3">Contact Us</h2>
+   </div>
+  </div>
+     <section class="ml-auto sm:flex items-center justify-around">
+      
+ <div class="space-y-4 sm:mt-0 mt-6 text-center sm:text-left">
+  <h1 class="text-2xl sm:text-3xl uppercase font-bold">
+    <span class="text-yellow-400">Be the Penguins
+    </span><br>
+    <span>of winter
+    </span>
+</h1>
+<p class="sm:text-1xl w-9/12 sm:ml-0 ml-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eaque.</p>
+<button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+  </svg> Buy Now</button>
+ </div>
+ <div class="pt-4 sm:pt-0 sm:space-y-2">
+  <img class="md:w-full sm:w-56" src="images/model.png" alt="">
+ </div>
+      </section>
+  </header>
+  <main class="container mx-auto bg-[#E5E5E5]">
+   <section class="pb-24 pt-12">
+    <h2 class="text-5xl font-semibold my-5 px-10">Woman Jacket</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7 px-10">
+    <div class="p-4 shadow-lg rounded">
+     <div class="p-5 bg-[#F1F1F1] rounded-xl">
+      <img src="images/jacket-1.png" alt="">
+     </div>
+      <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+      <p>Lorem Ipsum is simply dummy text of the 
+        printing and typesetting industry.</p>
+        <div class="flex justify-between">
+          <h2 class="text-5xl text-price font-bold">
+            $234
+          </h2>
+          <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg> Buy Now</button>
+        </div>
+    </div>
+    <div class="p-4 shadow-lg">
+      <div class="p-5 bg-[#F1F1F1] rounded-xl">
+       <img src="images/jacket-2.png" alt="">
+      </div>
+       <h3 class="text-3xl font-semibold">Ladies Jacket</h3>
+       <p>Lorem Ipsum is simply dummy text of the 
+         printing and typesetting industry.</p>
+         <div class="flex justify-between">
+           <h2 class="text-5xl text-price font-bold">
+             $264
+           </h2>
+           <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg> Buy Now</button>         </div>
+     </div>
+     <div class="p-4 shadow-lg">
+      <div class="p-5 bg-[#F1F1F1] rounded-xl">
+       <img src="images/jacket-3.png" alt="">
+      </div>
+       <h3 class="text-3xl font-semibold">Woman Leather Jacket</h3>
+       <p>Lorem Ipsum is simply dummy text of the 
+         printing and typesetting industry.</p>
+         <div class="flex justify-between">
+           <h2 class="text-5xl text-price font-bold">
+             $274
+           </h2>
+           <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg> Buy Now</button>
+         </div>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2 class="text-5xl font-semibold my-5 px-10">Man Jacket</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7 px-10 mb-16">
+    <div class="p-4 shadow-lg rounded">
+     <div class="p-5 bg-[#F1F1F1] rounded-xl">
+      <img src="images/jacket-4.png" alt="">
+     </div>
+      <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+      <p>Lorem Ipsum is simply dummy text of the 
+        printing and typesetting industry.</p>
+        <div class="flex justify-between">
+          <h2 class="text-5xl text-price font-bold">
+            $254
+          </h2>
+          <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg> Buy Now</button>
+        </div>
+    </div>
+    <div class="p-4 shadow-lg">
+      <div class="p-5 bg-[#F1F1F1] rounded-xl">
+       <img src="images/jacket-5.png" alt="">
+      </div>
+       <h3 class="text-3xl font-semibold">Man Leather Jackets</h3>
+       <p>Lorem Ipsum is simply dummy text of the 
+         printing and typesetting industry.</p>
+         <div class="flex justify-between">
+           <h2 class="text-5xl text-price font-bold">
+             $240
+           </h2>
+           <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg> Buy Now</button>         </div>
+     </div>
+     <div class="p-4 shadow-lg">
+      <div class="p-5 bg-[#F1F1F1] rounded-xl">
+       <img src="images/jacket-6.png" alt="">
+      </div>
+       <h3 class="text-3xl font-semibold">Man Casual Jackets</h3>
+       <p>Lorem Ipsum is simply dummy text of the 
+         printing and typesetting industry.</p>
+         <div class="flex justify-between">
+           <h2 class="text-5xl text-price font-bold">
+             $230
+           </h2>
+           <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg> Buy Now</button>
+         </div>
+     </div>
+    </div>
+   </section>
+   <!--Our Benefits-->
+   <section>
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-7 ml-0 sm:ml-10 mt-0 sm:mt-12 p-12 sm:p-0">
+      <div class="shadow-lg rounded-lg flex  bg-white p-6 justify-center items-center sm:order-none order-1">
+        <img class="w-20 h-20" src="icons/image 12.png" alt="">
+      <div class="pl-10">
+       <h4 class="text-2xl text-[#363958] text-bold">Find the Perfect Fit</h2>
+        <p><small>Everybody is different, which is why we
+          offer styles for every body.</small></p>
+      </div>
+    </div>
+      
+        <div class="row-span-3">
+          <img class="md:w-full sm:w-1/2 mt-0 md:mt-14" src="images/shopping.png" alt="">
+        </div>
+      
+     
+      <div class="shadow-lg rounded-lg flex  bg-white p-6 justify-center items-center order-2">
+        <img class="w-20 h-20" src="icons/image 13.png" alt="">
+      <div class="pl-10">
+       <h4 class="text-2xl text-[#363958] text-bold">Free Exchanges</h2>
+        <p><small>Everybody is different, which is why we
+          offer styles for every body.</small></p>
+      </div>
+    </div>
+    <div class="shadow-lg rounded-lg flex  bg-white p-6 justify-center items-center order-3">
+      <img class="w-20 h-20" src="icons/image 14.png" alt="">
+    <div class="pl-10">
+     <h4 class="text-2xl text-[#363958] text-bold">Contact Our Seller</h2>
+      <p><small>Everybody is different, which is why we
+        offer styles for every body.</small></p>
+    </div>
+  </div>
+    </div>
+   </section>
+   
+  </main>
+   <footer class="h-40 bg-black mt-0 sm:mt-1">
+       <h2 class="text-white text-center pt-16">@2022 Souvik Halder.All rights reserved.</h2>
+       <div class="text-center">
+        <a href="https://www.facebook.com/Souvik405"><i class="fa-brands fa-facebook text-white"></i></a>
+        <a href="https://www.facebook.com/Souvik405"><i class="fa-brands fa-twitter  text-white pl-2"></i></a>
+        <a href="https://www.youtube.com/channel/UCQAp-hAbSDOETSSGcgeYOyw"><i class="fa-brands fa-youtube  text-white pl-2"></i></a>
+       </div>
+   </footer>
+</body>
+</html>
